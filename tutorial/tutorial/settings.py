@@ -105,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASS': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        # 'rest_framework.authentication.BasicAuthenticstion',
+        # 'rest_framework.authentication.SessionAuthentication',
     ]
 }
 
